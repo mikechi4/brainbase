@@ -8,16 +8,18 @@
     @include roboto;
     font-weight: 700;
     font-size: 80px;
+    line-height: 1.3em;
 }
 
 @mixin body-text {
     @include roboto;
     font-weight: 400;
     font-size: 17px;    
+    line-height: 2em;
 }
 
 @mixin nav-item {
     @include roboto;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 16px;    
 }

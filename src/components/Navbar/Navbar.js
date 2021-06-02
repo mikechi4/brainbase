@@ -14,8 +14,8 @@ const Navbar = () => {
                 <ul>
                     {MenuItems.map((item,index) => {
                         return(
-                            <li className={item.className} key={index}>
-                                <a href={item.url} aria-label={item.label}>{item.title}</a>
+                            <li key={index}>
+                                <a href={item.url} className={item.className} aria-label={item.label}>{item.title}</a>
                             </li>
                         )
                     })}

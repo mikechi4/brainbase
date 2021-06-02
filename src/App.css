@@ -1,6 +1,9 @@
 .App {
   text-align: center;
   position: relative;
+  overflow-x: hidden;
+  background: #E5E5E5;
+  z-index: -2;
 }
 
 .App-logo {

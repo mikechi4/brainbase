@@ -64,6 +64,8 @@
     }
 
     @media screen and (max-width: 768px) {
+        height: 60vh;
+        padding-top: 180px;
         .hero__content-container {
             width: 90%;
         }

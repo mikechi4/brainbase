@@ -15,18 +15,22 @@
     display: flex;
     justify-content: space-between;
     z-index: 9;
+    .navbar__logo-wrap {
+        width: 100px;
+    }
+    
+    .navbar__menu-item {
+        text-decoration: none;
+        color:black;
+        @include nav-item;
+    }
+    
+    .logo-img {
+        width: 100%;
+    }
+
+    @media screen and (max-width: 768px) {
+        width: 80%;
+    }
 }
 
-.navbar__logo-wrap {
-    width: 100px;
-}
-
-.navbar__menu-item {
-    text-decoration: none;
-    color:black;
-    @include nav-item;
-}
-
-.logo-img {
-    width: 100%;
-}

@@ -24,6 +24,13 @@
         background-position: center;
         background-size: cover;   
         z-index: -1; 
+        .hero__circuit-left-img {
+            width: 50%;
+            position: absolute;
+            bottom: 50%;
+            left: 0;
+            transform: translate(0,50%);
+        }
     }
 
     .hero__circle-right {
@@ -36,6 +43,13 @@
         background-position: center;
         background-size: cover;    
         z-index: -1; 
+        .hero__circuit-right-img {
+            width: 50%;
+            position: absolute;
+            bottom: 43%;
+            right: 0;
+            transform: translate(0,50%);
+        }
     }
 
     .hero__title {

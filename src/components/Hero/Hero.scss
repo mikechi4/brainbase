@@ -17,12 +17,25 @@
     .hero__circle-left {
         background-image: url("../../assets/hero/Purple\ Glow\ BG.png");
         position: absolute;
-        width: 877px;
-        height: 878px;
-        left: 476px;
-        top: 164px;
+        width: 600px;
+        height: 800px;
+        left: 0;
+        top: 0;
+        background-position: center;
+        background-size: cover;   
+        z-index: -1; 
+    }
+
+    .hero__circle-right {
+        background-image: url("../../assets/hero/Orange\ Glow\ BG.png");
+        position: absolute;
+        width: 600px;
+        height: 800px;
+        right: 0;
+        top: 0;
         background-position: center;
         background-size: cover;    
+        z-index: -1; 
     }
 
     .hero__title {

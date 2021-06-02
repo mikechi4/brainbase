@@ -5,7 +5,9 @@ import './Hero.scss'
 const Hero = () => {
     return(
         <section className="hero">
+            {/* <canvas></canvas> */}
             <div className="hero__circle-left"></div>
+            <div className="hero__circle-right"></div>
             <div className="hero__content-container">
                 <h1 className="hero__title">
                     Protecting your ideas should be simple

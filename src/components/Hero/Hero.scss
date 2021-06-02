@@ -1,0 +1,71 @@
+@import '../../styles/common.scss';
+
+.hero {
+    width: 100%;
+    position: relative;
+    padding-top: 200px;
+   // display: flex;
+   // justify-content: flex-end;
+   // flex-direction: column;
+    height: 80vh;
+    .hero__content-container {
+        width: 60%;
+        margin: 0 auto;
+        max-width: 980px;
+    }
+    
+    .hero__circle-left {
+        background-image: url("../../assets/hero/Purple\ Glow\ BG.png");
+        position: absolute;
+        width: 600px;
+        height: 800px;
+        left: 0;
+        top: 0;
+        background-position: center;
+        background-size: cover;   
+        z-index: -1; 
+        .hero__circuit-left-img {
+            width: 50%;
+            position: absolute;
+            bottom: 50%;
+            left: 0;
+            transform: translate(0,50%);
+        }
+    }
+
+    .hero__circle-right {
+        background-image: url("../../assets/hero/Orange\ Glow\ BG.png");
+        position: absolute;
+        width: 600px;
+        height: 800px;
+        right: 0;
+        top: 0;
+        background-position: center;
+        background-size: cover;    
+        z-index: -1; 
+        .hero__circuit-right-img {
+            width: 50%;
+            position: absolute;
+            bottom: 43%;
+            right: 0;
+            transform: translate(0,50%);
+        }
+    }
+
+    .hero__title {
+        @include title;
+        margin-bottom: 20px;
+    }
+    
+    .hero__copy {
+        @include body-text;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    @media screen and (max-width: 768px) {
+        .hero__content-container {
+            width: 90%;
+        }
+    }
+}

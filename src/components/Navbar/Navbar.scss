@@ -1,3 +1,5 @@
+@import '../../styles/common.scss';
+
 .navbar {
     position: fixed;
     background: white;
@@ -21,7 +23,9 @@
 .navbar__menu-item {
     text-decoration: none;
     color:black;
+    @include nav-item;
 }
+
 .logo-img {
     width: 100%;
 }
